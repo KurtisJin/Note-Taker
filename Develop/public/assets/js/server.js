@@ -7,9 +7,6 @@ const PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const reservations = [];
-const waitList = [];
-
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html')));
 
 app.get('/tables', (req, res) => res.sendFile(path.join(__dirname, 'view_tables.html')));
