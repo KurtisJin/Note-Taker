@@ -1,4 +1,8 @@
 const express = require('express');
+const fs = require('fs');
+const notes = require('./db/db.json');
+const path = require('path');
+const uuid = require('uuid');
 
 // EXPRESS CONFIGURATION
 // This sets up the basic properties for our express server
@@ -24,4 +28,20 @@ require('./routes/htmlRoutes')(app);
 
 app.listen(PORT, () => {
     console.log(`App listening on PORT: ${PORT}`);
+  });
+
+//api get
+app.get("api/notes", (req, res) => {
+    res.sendFile(path.join(__dirname, "/db/db.json"))
+  });
+  
+  //api post
+  app.post('/api/notes', (req, res) => {
+    const notes = JSON.parse(fs.readFileSync("/db/db.json"))
+    const newNotes = req.body;
+    newNotes.id = uuid.v4()
+    notes.push(newNotes);
+    fs.writeFileSync('./db/db.json', JASON.stringify(notes));
+    res.json(notes);
+
   });
