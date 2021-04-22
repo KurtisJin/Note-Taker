@@ -15,7 +15,9 @@ const PORT = process.env.PORT || 8080;
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
+//get css/js/images
+app.use(express.static('public'));
+// 
 // ROUTER
 // The below points our server to a series of "route" files.
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
@@ -36,12 +38,12 @@ app.get("api/notes", (req, res) => {
   });
   
   //api post
-  app.post('/api/notes', (req, res) => {
-    const notes = JSON.parse(fs.readFileSync("/db/db.json"))
-    const newNotes = req.body;
-    newNotes.id = uuid.v4()
-    notes.push(newNotes);
-    fs.writeFileSync('./db/db.json', JASON.stringify(notes));
-    res.json(notes);
+  // app.post('/api/notes', (req, res) => {
+  //   const notes = JSON.parse(fs.readFileSync("/db/db.json"))
+  //   const newNotes = req.body;
+  //   newNotes.id = uuid.v4()
+  //   notes.push(newNotes);
+  //   fs.writeFileSync('./db/db.json', JASON.stringify(notes));
+  //   res.json(notes);
 
-  });
+  // });
