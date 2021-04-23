@@ -14,15 +14,18 @@
   9. [Questions](#questions)
 
 ## Description:
-Program using node.js to create a readme.md file for your Github
+Application to take and save notes. 
 
 ## Installation:
- You will need to install node.js and inquirer.
+ 1. node.js
+ 2. express
+ 3. uuid
 
 ## Usage:
-1. Run index.js using node.js from the terminal.
-2. Answer the prompted questions and press Enter
-3. When finished, you will see either readme.md is created or if you already had a readme.md, you will see the overwritten readme.md file. Then, you need to either uploaded to Github or use Gitbash to push it to your repository.
+1. Run server.js using node.js from the terminal.
+2. Click "Get Started"
+3. Input the title and note(s) and you will see a "save button" appear in the nav panel(Top Right). 
+4. Click Save and you will see your saved notes appear in the left panel. Click the trashcan to delete your note(s).
 
 ## Demo Video of the Generator
 <a href = "https://youtu.be/bQpNUcq0hr8">Demo Video</a>
