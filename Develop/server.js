@@ -32,8 +32,5 @@ app.listen(PORT, () => {
     console.log(`App listening on PORT: ${PORT}`);
   });
 
-//api get
-app.get("api/notes", (req, res) => {
-    res.sendFile(path.join(__dirname, "/db/db.json"))
-  });
+
   
