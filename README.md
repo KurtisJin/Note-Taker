@@ -6,7 +6,7 @@
   1. [Description](#description)
   2. [Installation](#installation)
   3. [Usage](#usage)
-  4. [Demo(#Demo)
+  4. [Demo](#Demo)
   5. [Credits](#credits)
   6. [License](#license)
   7. [Features](#features)
