@@ -29,7 +29,7 @@ Application to take and save notes.
 4. Click Save and you will see your saved notes appear in the left panel. Click the trashcan to delete your note(s).
 
 ## Demo 
-<a href = ""><span>Demo Website:</span> Note-Taker</a>
+Demo Website: <a href = ""> Note-Taker</a>
 
 <br>
 
