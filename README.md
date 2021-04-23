@@ -29,7 +29,7 @@ Application to take and save notes.
 4. Click Save and you will see your saved notes appear in the left panel. Click the trashcan to delete your note(s).
 
 ## Demo 
-<a href = "">N/A</a>
+<a href = "">Demo Website</a>
 
 ![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
 
