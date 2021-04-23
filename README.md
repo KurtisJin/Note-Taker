@@ -6,14 +6,13 @@
   1. [Description](#description)
   2. [Installation](#installation)
   3. [Usage](#usage)
-  4. [Demo Video](#Demo Video of the Generator)
-  5. [Demo Image](#Demo Images)
-  6. [Credits](#credits)
-  7. [License](#license)
-  8. [Features](#features)
-  9. [Contirbute](#contribute)
-  10. [Test](#test)
-  11. [Questions](#questions)
+  4. [Demo(#Demo)
+  5. [Credits](#credits)
+  6. [License](#license)
+  7. [Features](#features)
+  8. [Contirbute](#contribute)
+  9. [Test](#test)
+  10. [Questions](#questions)
 
 ## Description:
 Application to take and save notes. 
@@ -29,10 +28,8 @@ Application to take and save notes.
 3. Input the title and note(s) and you will see a "save button" appear in the nav panel(Top Right). 
 4. Click Save and you will see your saved notes appear in the left panel. Click the trashcan to delete your note(s).
 
-## Demo Video of the Generator
+## Demo 
 <a href = "">N/A</a>
-
-## Demo Images:
 
 ![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
 
