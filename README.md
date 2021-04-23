@@ -6,12 +6,14 @@
   1. [Description](#description)
   2. [Installation](#installation)
   3. [Usage](#usage)
-  4. [Credits](#credits)
-  5. [License](#license)
-  6. [Features](#features)
-  7. [Contirbute](#contribute)
-  8. [Test](#test)
-  9. [Questions](#questions)
+  4. [Demo Video](#Demo Video of the Generator)
+  5. [Demo Image](#Demo Images)
+  6. [Credits](#credits)
+  7. [License](#license)
+  8. [Features](#features)
+  9. [Contirbute](#contribute)
+  10. [Test](#test)
+  11. [Questions](#questions)
 
 ## Description:
 Application to take and save notes. 
